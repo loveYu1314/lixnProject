@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-cloud-native-application</module>
+        <module>spring-cloud-config-server</module>
+        <module>spring-cloud-config-client</module>
     </modules>
 
     <properties>
