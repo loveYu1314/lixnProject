@@ -1,5 +1,6 @@
 package com.lixn.login.controller;
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @创建时间 2019/9/22
  * @描述
  */
-@RestController
+@Controller
 public class RouterController {
 
     @GetMapping("login.html")
