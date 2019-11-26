@@ -8,7 +8,7 @@
 
 	<servlet>
 		<servlet-name>gupaomvc</servlet-name>
-		<servlet-class>com.lixn.spring.servlet.MyDispatchServlet</servlet-class>
+		<servlet-class>com.lixn.spring.servlet.v2.MyDispatchServlet2</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>classpath:application.properties</param-value>
